@@ -153,7 +153,7 @@ public class MainActivity extends AppCompatActivity {
 
         AdRequest adRequest = new AdRequest.Builder().build();
 
-        RewardedAd.load(this, "ca-app-pub-3830667749759531/3505097480",
+        RewardedAd.load(this, "ca-app-pub-xxxxxxxxxxxxxxxx/xxxxxxxxxx",
                 adRequest, new RewardedAdLoadCallback() {
                     @Override
                     public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
@@ -216,7 +216,7 @@ public class MainActivity extends AppCompatActivity {
     // for the ad
     public void loadAd() {
         // Use the test ad unit ID to load an ad.
-        RewardedInterstitialAd.load(MainActivity.this, "ca-app-pub-3830667749759531/2454905549",
+        RewardedInterstitialAd.load(MainActivity.this, "ca-app-pub-xxxxxxxxxxxxxxxx/xxxxxxxxxx",
                 new AdRequest.Builder().build(),  new RewardedInterstitialAdLoadCallback() {
                     @Override
                     public void onAdLoaded(RewardedInterstitialAd ad) {

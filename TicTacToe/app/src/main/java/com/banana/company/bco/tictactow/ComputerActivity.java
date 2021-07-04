@@ -319,7 +319,7 @@ public class ComputerActivity extends AppCompatActivity implements View.OnClickL
 
         AdRequest adRequest = new AdRequest.Builder().build();
 
-        RewardedAd.load(this, "ca-app-pub-3830667749759531/4520959393",
+        RewardedAd.load(this, "ca-app-pub-xxxxxxxxxxxxxxxx/xxxxxxxxxx",
                 adRequest, new RewardedAdLoadCallback() {
                     @Override
                     public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
